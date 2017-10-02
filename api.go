@@ -298,14 +298,15 @@ type Select struct {
 
 // A Legend specify the legend options used by the Panel
 type Legend struct {
-	Show         bool `json:"show"`
-	Values       bool `json:"values"`
-	Min          bool `json:"min"`
-	Max          bool `json:"max"`
-	Current      bool `json:"current"`
-	Total        bool `json:"total"`
-	Avg          bool `json:"avg"`
-	AlignAsTable bool `json:"alignAsTable"`
+	Show         bool     `json:"show"`
+	Values       bool     `json:"values"`
+	Min          bool     `json:"min"`
+	Max          bool     `json:"max"`
+	Current      bool     `json:"current"`
+	Total        bool     `json:"total"`
+	Avg          bool     `json:"avg"`
+	AlignAsTable bool     `json:"alignAsTable"`
+	Gradient     []string `json:"gradient"`
 }
 
 // A GroupBy struct is used to setup the group by part of the query
