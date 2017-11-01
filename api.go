@@ -281,6 +281,7 @@ type Target struct {
 	Hide        bool      `json:"hide"`
 	Measurement string    `json:"measurement"`
 	GroupBy     []GroupBy `json:"groupBy"`
+	Format      string    `json:"resultFormat"`
 	Select      []Selects `json:"select,omitempty"`
 	Tags        []Tag     `json:"tags"`
 	DsType      string    `json:"dsType,omitempty"`
